@@ -1,4 +1,4 @@
-//  Write a program that takes a number and a single digit as input, and checks
+// . Write a program that takes a number and a single digit as input, and checks
 // whether the digit exists in the given number or not.
 #include <stdio.h>
 void main()
@@ -17,13 +17,5 @@ void main()
         }
         num = num / 10;
     }
-
-    if (c == 0)
-    {
-        printf("digit is not exist");
-    }
-    else
-    {
-        printf("digit is exist");
-    }
+    printf("total digit count : %d", c);
 }
