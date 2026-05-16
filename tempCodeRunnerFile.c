@@ -1,2 +1,2 @@
-  int a, b, c;
-    printf("you choosed
+
+    int arr[5] = {12, 34, 56, 78, 90};

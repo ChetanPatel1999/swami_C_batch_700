@@ -1,0 +1,21 @@
+// we can change array elements
+#include <stdio.h>
+void main()
+{
+    int arr[5] = {12, 34, 56, 78, 90};
+    int i;
+    printf("array element are : \n");
+    for (i = 0; i < 5; i++) // i=3
+    {
+        printf("%d  ", arr[i]);
+    }
+
+    arr[3] = 500;
+    arr[1] = 400;
+
+    printf("\narray element are : \n");
+    for (i = 0; i < 5; i++) // i=3
+    {
+        printf("%d  ", arr[i]);
+    }
+}
