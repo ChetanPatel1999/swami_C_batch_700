@@ -1,2 +1,1 @@
-
-    int arr[5] = {12, 34, 56, 78, 90};
+  printf("\nsum of array element : %d\n", sum);
