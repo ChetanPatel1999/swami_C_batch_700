@@ -6,9 +6,11 @@ struct pen
     int price;
     float rating;
 };
+
+typedef struct pen pen;
 void main()
 {
-    struct pen p1, p2, p3;
+    pen p1, p2, p3;
 
     strcpy(p1.name, "cello");
     p1.price = 5;
